@@ -94,7 +94,7 @@ def pathNameCreation (path):
 
 
 # Access to the Token & Confirm the Account
-myToken = 'NyT0Y0HzOuIAAAAAAAA75ayFvsIZyxY19cuL0uH_jkkRZgXuloFNyqRjtvUDUWyS'
+myToken = 'Token'
 dbx = dropbox.Dropbox(myToken)
 print(dbx.users_get_current_account())
 
